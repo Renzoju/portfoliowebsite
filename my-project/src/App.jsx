@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
+import Skills from './components/Skills'
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <main>
         <Hero />
         <Projects />
-        
+        <Skills />
 
       </main>
       <footer className="border-t border-white/10 py-6 text-center text-sm text-gray-400">

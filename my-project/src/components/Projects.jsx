@@ -35,7 +35,7 @@ export default function Projects() {
               <span className="text-green-500">#</span>
               <span className="text-white ml-1">projects</span>
             </h2>
-            <div className="border-1 border-green-400 w-150 rounded"></div>
+            <div className="border-t-1 border-green-400 w-150 rounded"></div>
           </div>
 
           <a
@@ -64,7 +64,7 @@ export default function Projects() {
               {/* Content */}
               <div className="p-5 flex flex-col flex-1 justify-between">
                 <div>
-                  <div className="pb-2 mb-4 border-b border-white rounded">
+                  <div className="pb-2 mb-4 border-b border-white">
                     <p className="text-sm text-gray-400 w-full">{project.tech}</p>
                   </div>
 

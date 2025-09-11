@@ -21,16 +21,16 @@ export default function Skills() {
               <span className="text-green-500">#</span>
               <span className="text-white ml-1">skills</span>
             </h2>
-            <div className="h-2 bg-green-500 flex-1"></div>
+            <div className="border-t-1 border-green-400 w-150 rounded "></div>
           </div>
         </div>
 
         {/* Skills grid */}
-        <div className="grid grid-cols-3 gap-6 pt-16 justify-start">
+        <div className="grid grid-cols-3 gap-6 pt-16 mx-auto w- justify-start">
           {skills.map((skill, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center justify-center  p-1  border-2 border-white"
+              className="flex flex-col items-center justify-center  p-1  border-1 border-gray-500   "
             >
               {/* Icon */}
               <div className="mb-3">{skill.icon}</div> {/* Icon boven skill naam */}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiDownload } from "react-icons/fi";
 
 
 export default function Hero() {
@@ -22,9 +23,9 @@ export default function Hero() {
           <div className="mt-8">
             <a
               href="#projects"
-              className="inline-block px-3 py-2 border border-green-500 text-white  rounded-lg items-center gap-2 hover:bg-green-500 hover:text-black transition w-fit"
+              className="inline-block px-3 py-1 border border-green-500 text-white items-center gap-2 hover:bg-green-500 hover:text-black transition w-fit"
             >
-              Scroll Down <span className="text-lg">&#8595;</span>
+              Scroll Down <FiDownload className="inline ml-2"/>
             </a>
           </div>
         </div>

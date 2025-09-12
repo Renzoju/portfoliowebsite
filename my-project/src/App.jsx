@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import About from './components/About'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Projects />
         <Skills />
+        <About />
 
       </main>
       <footer className="border-t border-white/10 py-6 text-center text-sm text-gray-400">

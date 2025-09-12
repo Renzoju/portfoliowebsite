@@ -1,9 +1,10 @@
 import React from "react";
 import { FaHtml5, FaPhp, FaReact, FaJsSquare, FaDatabase, FaCogs } from "react-icons/fa"; 
+import { TbBrandCSharp } from "react-icons/tb";
 
 const skills = [
   { name: "PHP", icon: <FaPhp className="h-12 w-12 text-blue-300" /> },
-  { name: "C#", icon: <FaCogs className="h-12 w-12 text-white" /> },
+  { name: "C#", icon: <TbBrandCSharp className="h-12 w-12 text-blue-500" /> },
   { name: "JavaScript", icon: <FaJsSquare className="h-12 w-12 text-yellow-500" /> },
   { name: "React", icon: <FaReact className="h-12 w-12 text-blue-500" /> },
   { name: "SQL", icon: <FaDatabase className="h-12 w-12 text-orange-400" /> },

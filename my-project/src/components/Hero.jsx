@@ -23,7 +23,7 @@ export default function Hero() {
           <div className="mt-8">
             <a
               href="#projects"
-              className="inline-block px-3 py-1 border border-green-500 text-white items-center gap-2 hover:bg-green-500 hover:text-black transition w-fit"
+              className=" rounded inline-block px-3 py-1 border border-green-500 text-white items-center gap-2 hover:bg-green-500 hover:text-black transition w-fit"
             >
               Scroll Down <FiDownload className="inline ml-2"/>
             </a>

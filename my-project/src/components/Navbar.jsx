@@ -8,8 +8,8 @@ function Navbar() {
   const links = [
     { href: "#projects", label: "Projects" },
     { href: "#skills", label: "Skills" },
-    { href: "#about", label: "About-me" },
-    { href: "#contact", label: "Contact-me" },
+    { href: "#about-me", label: "About-me" },
+    { href: "#Contact", label: "Contact" },
   ];
 
   return (

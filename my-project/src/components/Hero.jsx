@@ -41,7 +41,7 @@ export default function Hero() {
       </div>
       <section
         id="home"
-        className="min-h-screen flex items-center justify-center bg-black px-6 pb-20"
+        className="min-h-screen flex items-center justify-center bg-black px-6 pb-20 "
       ></section>
     </section>
   );

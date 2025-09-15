@@ -35,7 +35,7 @@ export default function Hero() {
           <img
             src="src/img/unnamed.png"
             alt="Renzo"
-            className="w-150 h-150 object-contain rounded-2xl shadow-lg"
+            className="w-150 h-150 object-contain rounded-2xl shadow-lg move-up-down"
           />
         </div>
       </div>

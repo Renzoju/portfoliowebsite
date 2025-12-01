@@ -16,8 +16,7 @@ export default function Hero() {
             I am a <span className="text-green-500">software developer</span>
           </h1>
           <p className="mt-2 text-lg text-gray-400 max-w-md">
-            i'm currently into ethical hacking, Frontend Dev,
-            backend Dev
+            I'm currently focused on full-stack development, mainly using the Laravel framework.
           </p>
 
           <div className="mt-8">

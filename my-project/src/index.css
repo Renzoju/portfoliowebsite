@@ -13,3 +13,6 @@
   animation: moveUpDown 1.2s ease-in-out infinite; /* 0.5s duur voor snelle beweging */
 }
 
+html {
+  scroll-behavior: smooth;
+}
